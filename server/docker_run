@@ -1,0 +1,4 @@
+docker run \
+    -it --net=host \
+    -v `pwd`/src/:/opt/aparkinson/websockets/src/ \
+aparkinson/websockets_server:latest
